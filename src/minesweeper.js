@@ -71,6 +71,7 @@ const getNumberOfNeighborBombs = (bombBoard, rowIndex, columnIndex) =>
   return numberOfBombs;
 }
 
+//Flip a tile
 const flipTile = (playerBoard, bombBoard, rowIndex, columnIndex) =>
 {
   if (playerBoard[rowIndex][columnIndex] !== ' ')
